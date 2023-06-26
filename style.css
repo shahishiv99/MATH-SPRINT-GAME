@@ -31,6 +31,7 @@ body {
   background: rgba(255, 255, 255, 0.5);
   user-select: none;
   margin-top: 100px;
+  box-sizing: border-box;
 }
 
 .header {
@@ -119,7 +120,7 @@ label {
 }
 
 .height-500 {
-  height: 240px;
+  height: 500px;
   width: 100%;
 }
 
