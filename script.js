@@ -113,9 +113,7 @@ function scoreToDOM() {
 
 // Stop timer, Process go to Score Page
 function checkTime() {
-  console.log(timePlayed);
   if (playerGuessArray.length == questionAmount) {
-    console.log(playerGuessArray);
     clearInterval(timer);
     // Check wrong guesses, add Penalty time
     equationsArray.forEach((data, i) => {
@@ -297,4 +295,3 @@ playAgainBtn.addEventListener("click", playAgain);
 
 // Check Set/Get Best Scores
 getSaveBestScores();
-updateBestScore();
